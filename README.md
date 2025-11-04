@@ -1,6 +1,6 @@
 #  Molecular Modeler
 
-This Molecular Modeler is a high-performance, cross-platform molecular modeling application built with **Python**, **C++**, **PyQt5**, and **Qt Designer**. It enables users to **build, visualize, and simulate molecules** in real time — combining the speed of C++ molecular dynamics with the flexibility of a Python-based interface.
+This Molecular Modeler is a high-performance, cross-platform molecular modeling application built with **Python**, **C++**, **PyQt5**, and **Qt Designer**. It enables users to **build, visualize, and simulate molecules** in real time, combining the speed of C++ molecular dynamics with the flexibility of a Python-based interface.
 
 **This is a preliminary README**
 
@@ -9,7 +9,7 @@ This Molecular Modeler is a high-performance, cross-platform molecular modeling 
 ##  Overview
 
 This project bridges the fields of computational chemistry and software engineering to provide a research-grade tool for molecular design and simulation.  
-Users can construct molecules, run molecular dynamics (MD) simulations, visualize 3D structures, and analyze energy profiles — all through a polished desktop interface.
+Users can construct molecules, run molecular dynamics (MD) simulations, visualize 3D structures, and analyze energy profiles.
 
 ---
 
