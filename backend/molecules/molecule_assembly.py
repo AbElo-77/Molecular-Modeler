@@ -80,7 +80,7 @@ class Molecule(object):
             self.update_angles(atom)
 
     
-    def add_atom(self, id, element, atomic_number, mass, 
+    def add_atom(self, id, element,
                 formal_charge=0, velocity=None, position=None):
         
         new_atom = Atom(id, element, formal_charge, 
@@ -135,4 +135,8 @@ class Molecule(object):
                 rev_key = (atom_l, atom_k, atom_j, atom_i)
 
                 if key not in self.torsion_angles and rev_key not in self.torsion_angles:
-                    self.torsion_angles[key] = Dihedral(atom_i, atom_j, atom_k, atom_l)
+
+                    params = (0, 0)
+                    # params = Engine.get_params(atom_i, atom_j, atom_k, atom_l)
+
+                    self.torsion_angles[key] = Dihedral(atom_i, atom_j, atom_k, atom_l, params)
