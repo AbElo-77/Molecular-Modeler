@@ -35,7 +35,7 @@ struct DihedralData {
 class BondedInteractions {
 public:
 
-    static double calculateBondEnergy(
+    static double calculateBondForces(
         double currentLength,
         double equilibriumLength,
         double forceConstant);
@@ -76,7 +76,7 @@ public:
         const std::array<double, 3>& pos2);
     
     static double calculateAngle(
-        const std::array<double, 3>& pos1,
+        const sd::array<double, 3>& pos1,
         const std::array<double, 3>& pos2,
         const std::array<double, 3>& pos3);
     
